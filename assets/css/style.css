@@ -6,7 +6,7 @@
 
 .game {
     width: 80vw;
-    padding-top: 40px;
+    padding-top: 20px;
     background-color: pink;
     margin: auto;
 }
@@ -23,6 +23,10 @@
     width: fit-content;
 }
 
+.player-one-hand, .player-two-hand {
+    width: 250px;
+}
+
 .player-one-hand {
     transform: rotateY(180deg);
 }
@@ -31,7 +35,7 @@
     height: fit-content;
     width: fit-content;
     background-color: brown;
-    padding-top: 50px;
+    padding-bottom: 10px;
     margin: auto;
 }
 .rock, .paper, .sissors {
@@ -41,4 +45,29 @@
     font-family: 'Fugaz One', cursive;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.chat {
+    width: 80vw;
+    height: 200px;
+    background-color: chartreuse;
+    margin: auto;
+}
+
+@media only screen and (max-width: 764px) {
+    .title {
+        font-size: 3.5em;
+    }
+    .game {
+        width: 100vw;
+    }    
+}
+
+@media only screen and (max-width: 611px) {
+    .title {
+        font-size: 3em;
+    }
+    .player-one-hand, .player-two-hand {
+        width: 200px;
+    }
 }
