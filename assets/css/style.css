@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game {
+    width: 80vw;
+    padding-top: 40px;
+    background-color: pink;
+    margin: auto;
+}
+
+.title {
+    font-family: 'Fugaz One', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+
+.hands {
+    background-color: blueviolet;
+    margin: auto;
+    width: fit-content;
+}
+
+.player-one-hand {
+    transform: rotateY(180deg);
+}
+
+.buttons {
+    height: fit-content;
+    width: fit-content;
+    background-color: brown;
+    padding-top: 50px;
+    margin: auto;
+}
+.rock, .paper, .sissors {
+    padding: 10px;
+    font-size: 2em;
+    background-color: blueviolet;
+    font-family: 'Fugaz One', cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+}
